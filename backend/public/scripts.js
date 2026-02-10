@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", () => {
       quinta_opcion: toUpper(formData.get("quinta_opcion")),
          sexta_opcion: toUpper(formData.get("sexta_opcion")),
          septima_opcion: toUpper(formData.get("septima_opcion")),
-
+       octava_opcion: toUpper(formData.get("octava_opcion")),
         estado_nacimiento_general: obtenerClave("estado_nacimiento_general"),
         municipio_nacimiento_general: obtenerClave("municipio_nacimiento_general"),
         ciudad_nacimiento_general: obtenerClave("ciudad_nacimiento_general")
