@@ -172,6 +172,10 @@ y = drawBox('Sexta Opción', generales.sexta_opcion, marginX, y);
 y = drawBox('Septima Opción', generales.septima_opcion, marginX + 260, y);
 y += GAP_Y;
 
+  y = drawBox(' ', generales._opcion, marginX, y);
+y = drawBox('Octava Opción', generales.octava_opcion, marginX + 260, y);
+y += GAP_Y;
+
 
 
 
@@ -194,6 +198,7 @@ y += GAP_Y;
   y = drawBox('Tel. Madre', tutor.telefono_madre, marginX + 260, y);
   y += GAP_Y;
   y = drawBox('Vive con', tutor.vive_con, marginX, y);
+  y = drawBox('Correo Electronico', tutor.correo_alumno, marginX + 260, y);
   y += GAP_Y;
 y += 60; // espacio adicional antes del footer
 
