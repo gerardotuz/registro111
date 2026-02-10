@@ -68,7 +68,7 @@ bloqueado: {
     quinta_opcion: String,
      sexta_opcion: String,
     septima_opcion: String,
-
+    octava_opcion: String,
     
     estado_nacimiento_general: String,
     municipio_nacimiento_general: String,
