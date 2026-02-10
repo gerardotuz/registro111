@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
         domicilio: toUpper(formData.get("domicilio")),
         codigo_postal: formData.get("codigo_postal"),
         telefono_alumno: formData.get("telefono_alumno"),
-        correo_alumno: toUpper(formData.get("correo_alumno")),
+       
         tipo_sangre: toUpper(formData.get("tipo_sangre")),
         paraescolar: toUpper(formData.get("paraescolar")),
         entrega_diagnostico: toUpper(formData.get("entrega_diagnostico")),
@@ -130,6 +130,7 @@ document.addEventListener("DOMContentLoaded", () => {
         telefono_padre: formData.get("telefono_padre"),
         nombre_madre: toUpper(formData.get("nombre_madre")),
         telefono_madre: formData.get("telefono_madre"),
+          correo_alumno: toUpper(formData.get("correo_alumno")),
         vive_con: toUpper(formData.get("vive_con"))
       },
 
