@@ -68,6 +68,7 @@
     <option value="soporte">Soporte y Gestión de Tecnologías Informáticas</option>
     <option value="mantenimiento">Mantenimiento Industrial</option>
 <option value="enfermeria">Enfermería General</option>
+    <option value="comercio">Comercio Internacional y Aduanas</option>
   </select>
 </div>
 
@@ -82,6 +83,7 @@
     <option value="soporte">Soporte y Gestión de Tecnologías Informáticas</option>
     <option value="mantenimiento">Mantenimiento Industrial</option>
 <option value="enfermeria">Enfermería General</option>
+   <option value="comercio">Comercio Internacional y Aduanas</option>
   </select>
 </div>
 
@@ -96,6 +98,7 @@
     <option value="soporte">Soporte y Gestión de Tecnologías Informáticas</option>
     <option value="mantenimiento">Mantenimiento Industrial</option>
 <option value="enfermeria">Enfermería General</option>
+    <option value="comercio">Comercio Internacional y Aduanas</option>
   </select>
 </div>
 
@@ -110,6 +113,7 @@
     <option value="soporte">Soporte y Gestión de Tecnologías Informáticas</option>
     <option value="mantenimiento">Mantenimiento Industrial</option>
 <option value="enfermeria">Enfermería General</option>
+    <option value="comercio">Comercio Internacional y Aduanas</option>
   </select>
 </div>
 
@@ -124,6 +128,7 @@
     <option value="soporte">Soporte y Gestión de Tecnologías Informáticas</option>
     <option value="mantenimiento">Mantenimiento Industrial</option>
 <option value="enfermeria">Enfermería General</option>
+   <option value="comercio">Comercio Internacional y Aduanas</option>
   </select>
 </div>
  <div>
@@ -137,6 +142,7 @@
     <option value="soporte">Soporte y Gestión de Tecnologías Informáticas</option>
     <option value="mantenimiento">Mantenimiento Industrial</option>
 <option value="enfermeria">Enfermería General</option>
+   <option value="comercio">Comercio Internacional y Aduanas</option>
   </select>
 </div>
 
@@ -151,10 +157,24 @@
     <option value="soporte">Soporte y Gestión de Tecnologías Informáticas</option>
     <option value="mantenimiento">Mantenimiento Industrial</option>
 <option value="enfermeria">Enfermería General</option>
+   <option value="comercio">Comercio Internacional y Aduanas</option>
   </select>
 </div>
 
-
+  <div>
+  <label for="octava_opcion">8VA OPCIÓN</label>
+ <select id="octava_opcion" name="octava_opcion" required>
+    <option value="">Cuál fue tu 8va opción</option>
+    <option value="gestion">Gestión e Innovación Turística</option>
+    <option value="a y b">Preparación de Alimentos y Bebidas/option>
+    <option value="progrmacion">Programación</option>
+    <option value="contabilidad">Contabilidad</option>
+    <option value="soporte">Soporte y Gestión de Tecnologías Informáticas</option>
+    <option value="mantenimiento">Mantenimiento Industrial</option>
+<option value="enfermeria">Enfermería General</option>
+   <option value="comercio">Comercio Internacional y Aduanas</option>
+  </select>
+</div>
 <div>
   <label for="nacionalidad">Nacionalidad</label>
   <select id="nacionalidad" name="nacionalidad" required>
@@ -247,6 +267,7 @@
 <input name="telefono_padre" placeholder="Teléfono del Padre" type="number"/>
 <input name="nombre_madre" placeholder="Nombre de la Madre" type="text"/>
 <input name="telefono_madre" placeholder="Teléfono de la Madre" type="number"/>
+  <input name="correo_alumno" placeholder="CORREO" required="" type="email"/>
 <select name="vive_con" required="">
 <option value="">¿Con quién vive?</option>
 <option value="padres">Padres</option>
@@ -266,7 +287,7 @@
 
 
 <script>
-  const opciones = ["Gestión e Innovación Turística", "Preparación de Alimentos y Bebidas", "contabilidad", "Programación", "Soporte y Gestión de Tecnologías Informáticas", "Mantenimiento Industrial", "Enfermería General"];
+  const opciones = ["Comercio Internacional y Aduanas", Gestión e Innovación Turística", "Preparación de Alimentos y Bebidas", "contabilidad", "Programación", "Soporte y Gestión de Tecnologías Informáticas", "Mantenimiento Industrial", "Enfermería General"];
   const selects = [
     document.getElementById('primera_opcion'),
     document.getElementById('segunda_opcion'),
@@ -274,7 +295,8 @@
     document.getElementById('cuarta_opcion'),
     document.getElementById('quinta_opcion'),
     document.getElementById('sexta_opcion'),
-    document.getElementById('septima_opcion')
+    document.getElementById('septima_opcion'),
+    document.getElementById('octava_opcion')
   ];
   function actualizarOpciones() {
     const seleccionados = selects.map(select => select.value);
