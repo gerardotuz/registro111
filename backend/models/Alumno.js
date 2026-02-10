@@ -44,7 +44,7 @@ bloqueado: {
     domicilio: String,
     codigo_postal: String,
     telefono_alumno: String,
-    correo_alumno: String,
+    
     paraescolar: String,
     entrega_diagnostico: String,
     detalle_enfermedad: String,
@@ -97,6 +97,7 @@ bloqueado: {
     telefono_padre: String,
     nombre_madre: String,
     telefono_madre: String,
+    correo_alumno: String,
     vive_con: String
   },
 
