@@ -62,7 +62,7 @@ async function curpExisteEnOtroPlantel(curpActual) {
     const resultados = response.data.resultados;
 
     const duplicado = resultados.find(r =>
-      r.encontrado === true && r.plantel !== "registro28"
+      r.encontrado === true && r.plantel !== "registro111"
     );
 
     if (duplicado) {
